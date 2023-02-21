@@ -1,0 +1,206 @@
+head {
+background-color: black;
+}
+
+.abc{
+    display:inline;
+    font-weight: 300;
+}
+
+.abc a{
+    color: blue;
+}
+
+
+.abc a:hover{
+    
+    color: red;
+    font-weight: 800;
+}
+
+.nav img{
+    float: left;
+    width: 150px;
+    padding-right: 5px;
+}
+.nav img:hover{
+    -webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.nav2 img {
+    float: right;
+}
+.nav3 img {
+    display:flex;
+    /* margin-left: auto;
+    margin-right: auto; */
+    
+}
+
+body{
+    background-image: linear-gradient(#83c5ff, #ffff5f);
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.aboutme{
+    float: left;
+}
+
+.aboutme img{
+    display: block;
+    width: 250px;
+    margin-right: 10px;
+}
+
+
+.dreams img{
+    display: block;
+    width: 350px;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2rem;
+}
+
+.dreams img:hover{
+    transform: scale(1.1);
+}
+
+/* .aboutme img:hover{
+    transform: scale(1.2);
+} */
+
+.post-container {
+    overflow: auto
+}
+
+.information p{
+    font-family: 'Trebuchet MS', sans-serif;
+    margin-left: 260px;
+    font-size: 1.1rem;
+}
+
+
+/* TABLE CSS */
+table{
+    border: 2px solid black;
+    width: 400px;
+    border-collapse: collapse;
+}
+table thead {
+    background-color: yellow;
+    font-size: 18px;
+    color: red;
+}
+
+table thead th:hover {
+    background-color: red;
+    font-size: 18px;
+    color: white;
+}
+
+table tr td:hover {
+    background-color: silver;
+    color: white;
+    font-weight: 400;
+}
+
+table thead tr th {
+    border: 2px solid black;
+}
+
+td{
+    border: 1px dotted black;
+    text-align: center;
+    font-weight: 300;
+    
+}
+hr{
+    position: relative;
+    top: 5px;
+    border: none;
+    height: 2px;
+    background: red;
+    margin-bottom: none;
+}
+.Table1 {
+    text-align: center;
+}
+
+
+.Table1 h3{
+    padding: 2px;
+    margin: 2px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aquamarine;
+  }
+  
+  footer .footer-text {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer .footer-text p {
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    margin: 0;
+  }
+  
+  footer .fnav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  footer .fnav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  footer .fnav li {
+    margin-right: 20px;
+  }
+  
+  footer .fnav li:last-child {
+    margin-right: 0;
+  }
+
+  .first-letter{
+    font-size: 4rem;
+  }
+
+  .social-icons {
+    text-align: center;
+    /* margin: 20px 0; */
+  }
+  
+  .social-icons .icon {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px;
+    color: #555;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .social-icons .icon:hover {
+    color: #007bff;
+  }
+  
+  /* @media (max-width: 767px) {
+    .social-icons .icon {
+      font-size: 20px;
+    } 
+  } */
